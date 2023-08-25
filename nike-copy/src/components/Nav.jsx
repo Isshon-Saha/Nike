@@ -21,11 +21,11 @@ const Nav = () => {
             </li>
           ))}
         </ul>
-        <div className="hidden max-lg:block">
+        <div className="hidden max-lg:block absolute top-8 right-8">
           <img src={hamburger} alt="Hamburger" width={25} height={25} />
         </div>
         <div className="flex justify-end items-end">
-          <p className="bg-gradient-to-t from-yellow-500 via-red-500 to-pink-500 text-transparent bg-clip-text text-lg leading-7 font-montserrat font-semibold">
+          <p className="bg-gradient-to-t from-yellow-500 via-red-500 to-pink-500 text-transparent bg-clip-text text-lg leading-7 font-montserrat font-semibold max-lg:hidden">
             Sign In / Register
           </p>
         </div>
